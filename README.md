@@ -29,44 +29,48 @@ If you need to [update the Salesforce CLI](https://developer.salesforce.com/docs
 ## Installing the app using a Developer Edition Org
 
 Follow this set of instructions if you want to deploy the app to a more permanent environment than a Scratch org.
-This includes non source-tracked orgs such as a free [Developer Edition Org](https://developer.salesforce.com/signup) or a [Trailhead Playground](https://trailhead.salesforce.com/).
+This includes non source-tracked orgs such as a free [Developer Edition Org](https://developer.salesforce.com/signup).
 
 > [!IMPORTANT]
 > Make sure to start from a brand-new environment to avoid conflicts with previous work you may have done.
 
-1. Clone this repository:
+1. Enable Einstein in your org. Do this via **Setup**, then search for **Einstein Setup** in Quick Find. Click on that entry and turn on the **Einstein** toggle.
+
+2. Enable Agentforce in your org. In Quick Find search for **Agentforce**, click on **Agentforce Agents**, and turn on the **Agentforce** toggle.
+
+3. Clone this repository:
 
     ```bash
     git clone https://github.com/trailheadapps/agent-script-recipes
     cd agent-script-recipes
     ```
 
-1. Authorize your Trailhead Playground or Developer Edition org and provide it with an alias (**agent-script-recipes** in the command below):
+4. Authorize your Developer Edition org and provide it with an alias (**agent-script-recipes** in the command below):
 
     ```bash
     sf org login web -s -a agent-script-recipes
     ```
 
-1. Deploy the app to your org:
+5. Deploy the app to your org:
 
     ```bash
     sf project deploy start -d force-app
     ```
 
-1. Assign the `Agent_Script_Recipes_Data` and `Agent_Script_Recipes_App` permission sets to the default user:
+6. Assign the `Agent_Script_Recipes_Data` and `Agent_Script_Recipes_App` permission sets to the default user:
 
     ```bash
     sf org assign permset -n Agent_Script_Recipes_Data
     sf org assign permset -n Agent_Script_Recipes_App
     ```
 
-1. Import some sample data:
+7. Import some sample data:
 
     ```bash
     sf data import tree --plan data/data-plan.json
     ```
 
-1. Open your org with the **Agentforce Studio** app displayed:
+8. Open your org with the **Agentforce Studio** app displayed:
 
     ```bash
     sf org open -p "/lightning/n/standard-AgentforceStudio?c__nav=agents"
@@ -78,7 +82,7 @@ This includes non source-tracked orgs such as a free [Developer Edition Org](htt
 ## Installing the app using a Scratch Org
 
 1. Follow these steps if you haven't configured a Dev Hub org:
-    1. [Select and enable a Dev Hub org](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_setup_enable_devhub.htm). You can use a free [Developer Edition Org](https://developer.salesforce.com/signup) or a [Trailhead Playground](https://trailhead.salesforce.com/).
+    1. [Select and enable a Dev Hub org](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_setup_enable_devhub.htm). You can use a free [Developer Edition Org](https://developer.salesforce.com/signup).
 
     1. Authorize your Dev Hub org and provide it with an alias (**myhuborg** in the command below):
 
