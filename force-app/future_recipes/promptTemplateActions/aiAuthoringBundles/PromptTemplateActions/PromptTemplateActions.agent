@@ -2,8 +2,8 @@
 # Demonstrates how to invoke Salesforce Prompt Templates as actions
 
 config:
-   agent_name: "PromptTemplateActions_Agent"
-   agent_label: "Prompt Template Demo Agent"
+   agent_name: "PromptTemplateActions"
+   agent_label: "PromptTemplateActions"
    description: "Invokes prompt templates for generating content"
 
 variables:

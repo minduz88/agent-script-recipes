@@ -1,4 +1,4 @@
-# MultiTopicOrchestration Agent
+# MultiTopicOrchestration
 
 ## Overview
 

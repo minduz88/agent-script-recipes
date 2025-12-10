@@ -58,7 +58,7 @@ Top-level blocks MUST appear in this order:
 ```agentscript
 # 1. CONFIG (required) - Agent metadata
 config:
-   agent_name: "My_Agent"
+   agent_name: "DescriptiveName"
    ...
 
 # 2. VARIABLES (optional) - State management
@@ -166,10 +166,10 @@ config:
 ```agentscript
 config:
    # Required
-   agent_name: "My_Agent_Name"           # Unique identifier (letters, numbers, underscores)
+   agent_name: "DescriptiveName"           # Unique identifier (letters, numbers, underscores)
 
    # Optional with defaults
-   agent_label: "My Agent"               # Display name (defaults to normalized agent_name)
+   agent_label: "DescriptiveName"               # Display name (defaults to normalized agent_name)
    description: "Agent description"       # What the agent does
    agent_type: "AgentforceServiceAgent"  # or "AgentforceEmployeeAgent"
    default_agent_user: "user@example.com" # Required for AgentforceServiceAgent

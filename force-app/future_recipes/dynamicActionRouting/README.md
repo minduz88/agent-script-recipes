@@ -1,4 +1,4 @@
-# DynamicActionRouting Agent
+# DynamicActionRouting
 
 ## Overview
 

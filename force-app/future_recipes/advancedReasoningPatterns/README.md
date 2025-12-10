@@ -1,4 +1,4 @@
-# AdvancedReasoningPatterns Agent
+# AdvancedReasoningPatterns
 
 ## Overview
 

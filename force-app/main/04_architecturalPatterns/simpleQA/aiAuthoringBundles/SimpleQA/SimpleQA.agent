@@ -1,9 +1,9 @@
-# SimpleQA Agent - Basic Question & Answer Agent
+# $1
 # This agent demonstrates how to create a focused Q&A agent with clear instructions
 
 config:
-   agent_name: "SimpleQA_Agent"
-   agent_label: "Product FAQ Agent"
+   agent_name: "SimpleQA"
+   agent_label: "SimpleQA"
    description: "Answers common questions about products and services"
 
 # System block defines the agent's overall personality and capabilities

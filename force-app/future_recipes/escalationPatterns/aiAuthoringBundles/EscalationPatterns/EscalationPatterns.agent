@@ -2,8 +2,8 @@
 # Demonstrates how to escalate to a human agent using the connections block and @utils.escalate
 
 config:
-   agent_name: "EscalationPatterns_Agent"
-   agent_label: "Escalation Support Agent"
+   agent_name: "EscalationPatterns"
+   agent_label: "EscalationPatterns"
    description: "Demonstrates patterns for escalating to human agents"
 
 connections:

@@ -1,9 +1,9 @@
-# ConditionalLogicPatterns Agent - Mastering If/Else Control Flow
+# ConditionalLogicPatterns - Mastering If/Else Control Flow
 # This agent demonstrates comprehensive conditional logic patterns
 
 config:
-   agent_name: "ConditionalLogicPatterns_Agent"
-   agent_label: "Loan Approval Agent"
+   agent_name: "ConditionalLogicPatterns"
+   agent_label: "ConditionalLogicPatterns"
    description: "Evaluates loan applications using complex conditional logic"
 
 variables:
