@@ -1,4 +1,4 @@
-# ContextHandling Agent
+# ContextHandling
 
 ## Overview
 

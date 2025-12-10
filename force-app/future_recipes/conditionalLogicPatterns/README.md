@@ -1,4 +1,4 @@
-# ConditionalLogicPatterns Agent
+# ConditionalLogicPatterns
 
 ## Overview
 

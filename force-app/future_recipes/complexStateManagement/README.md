@@ -1,4 +1,4 @@
-# ComplexStateManagement Agent
+# ComplexStateManagement
 
 ## Overview
 

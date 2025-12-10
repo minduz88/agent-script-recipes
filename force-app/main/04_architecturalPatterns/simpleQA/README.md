@@ -1,4 +1,4 @@
-# SimpleQA Agent
+# SimpleQA
 
 ## Overview
 

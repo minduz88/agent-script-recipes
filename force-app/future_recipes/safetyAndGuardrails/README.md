@@ -1,4 +1,4 @@
-# SafetyAndGuardrails Agent
+# SafetyAndGuardrails
 
 ## Overview
 

@@ -1,9 +1,9 @@
-# ComplexStateManagement Agent - Advanced State Manipulation
+# ComplexStateManagement - Advanced State Manipulation
 # This agent demonstrates complex object and list operations for sophisticated state management
 
 config:
-   agent_name: "ComplexStateManagement_Agent"
-   agent_label: "Task Manager Agent"
+   agent_name: "ComplexStateManagement"
+   agent_label: "ComplexStateManagement"
    description: "Manages a todo list with complex state operations"
 
 variables:

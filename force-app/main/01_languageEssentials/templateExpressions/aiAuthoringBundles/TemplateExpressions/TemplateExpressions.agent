@@ -1,9 +1,9 @@
-# TemplateExpressions Agent - Dynamic Content with Template Syntax
+# TemplateExpressions - Dynamic Content with Template Syntax
 # This agent demonstrates how to use template expressions to create dynamic, personalized responses
 
 config:
-   agent_name: "TemplateExpressions_Agent"
-   agent_label: "Personal Shopping Assistant"
+   agent_name: "TemplateExpressions"
+   agent_label: "TemplateExpressions"
    description: "Personalized shopping assistant using template expressions for dynamic content"
 
 variables:

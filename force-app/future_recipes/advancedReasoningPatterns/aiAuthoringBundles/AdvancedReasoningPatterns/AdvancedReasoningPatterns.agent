@@ -1,9 +1,9 @@
-# AdvancedReasoningPatterns Agent
+# AdvancedReasoningPatterns
 # Demonstrates complex dynamic reasoning with multiple data sources
 
 config:
    agent_name: "AdvancedReasoningPatterns"
-   agent_label: "Advanced Reasoning Patterns Agent"
+   agent_label: "AdvancedReasoningPatterns"
    description: "Demonstrates advanced reasoning with dynamic instructions and complex logic"
 
 variables:

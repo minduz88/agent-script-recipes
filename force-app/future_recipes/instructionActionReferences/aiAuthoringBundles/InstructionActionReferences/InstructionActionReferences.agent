@@ -2,8 +2,8 @@
 # Demonstrates how to reference actions directly within reasoning instructions
 
 config:
-   agent_name: "InstructionActionReferences_Agent"
-   agent_label: "Action Reference Demo"
+   agent_name: "InstructionActionReferences"
+   agent_label: "InstructionActionReferences"
    description: "Demonstrates embedding action references in instructions"
 
 variables:

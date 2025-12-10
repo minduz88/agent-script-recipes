@@ -1,4 +1,4 @@
-# BeforeAfterReasoning Agent
+# BeforeAfterReasoning
 
 ## Overview
 

@@ -1,9 +1,9 @@
-# BeforeAfterReasoning Agent
+# BeforeAfterReasoning
 # Demonstrates before_reasoning and after_reasoning lifecycle events
 
 config:
-   agent_name: "BeforeAfterReasoning_Agent"
-   agent_label: "Before/After Reasoning Agent"
+   agent_name: "BeforeAfterReasoning"
+   agent_label: "BeforeAfterReasoning"
    description: "Demonstrates reasoning lifecycle events"
 
 # Variables to track lifecycle execution

@@ -1,9 +1,9 @@
-# ContextHandling Agent - Working with Session and Platform Context
+# ContextHandling - Working with Session and Platform Context
 # This agent demonstrates using linked variables from external context
 
 config:
-   agent_name: "ContextHandling_Agent"
-   agent_label: "Personalized Assistant"
+   agent_name: "ContextHandling"
+   agent_label: "ContextHandling"
    description: "Uses platform context for personalized experiences"
 
 variables:

@@ -1,9 +1,9 @@
-# SafetyAndGuardrails Agent - Production Safety Patterns
+# SafetyAndGuardrails - Production Safety Patterns
 # This agent demonstrates comprehensive safety and confirmation patterns
 
 config:
-   agent_name: "SafetyAndGuardrails_Agent"
-   agent_label: "Data Deletion Agent"
+   agent_name: "SafetyAndGuardrails"
+   agent_label: "SafetyAndGuardrails"
    description: "Handles sensitive data deletion with safety guardrails"
 
 variables:
