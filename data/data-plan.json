@@ -12,6 +12,12 @@
         "files": ["commerce-account.json"]
     },
     {
+        "sobject": "Contact",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": ["travel-cruise-contact.json"]
+    },
+    {
         "sobject": "ASR_Product__c",
         "saveRefs": true,
         "resolveRefs": false,
@@ -100,5 +106,17 @@
         "saveRefs": false,
         "resolveRefs": false,
         "files": ["general-report.json"]
+    },
+    {
+        "sobject": "ASR_Customer_Interest__c",
+        "saveRefs": false,
+        "resolveRefs": false,
+        "files": ["travel-cruise-customer-interest.json"]
+    },
+    {
+        "sobject": "ASR_Experience__c",
+        "saveRefs": false,
+        "resolveRefs": false,
+        "files": ["travel-cruise-experience.json"]
     }
 ]

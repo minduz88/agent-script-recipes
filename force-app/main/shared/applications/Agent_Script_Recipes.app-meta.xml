@@ -32,5 +32,7 @@
     <tabs>ASR_Report_Log__c</tabs>
     <tabs>ASR_Survey_Log__c</tabs>
     <tabs>ASR_Task__c</tabs>
+    <tabs>ASR_Customer_Interest__c</tabs>
+    <tabs>ASR_Experience__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

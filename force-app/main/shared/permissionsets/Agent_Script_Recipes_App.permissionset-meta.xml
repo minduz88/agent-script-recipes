@@ -24,7 +24,15 @@
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
+        <tab>ASR_Customer_Interest__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
         <tab>ASR_Customer_Onboarding__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>ASR_Experience__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
@@ -36,11 +44,11 @@
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
-        <tab>ASR_Hotel__c</tab>
+        <tab>ASR_Hotel_Booking__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
-        <tab>ASR_Hotel_Booking__c</tab>
+        <tab>ASR_Hotel__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>

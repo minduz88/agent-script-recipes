@@ -1,0 +1,17 @@
+{
+    "required": ["Input:contact"],
+    "unevaluatedProperties": false,
+    "properties": {
+        "Input:contact": {
+            "title": "contact",
+            "description": "The contact record associated with the guest.",
+            "lightning:type": "lightning__recordInfoType",
+            "lightning:sObjectInfo": {
+                "apiName": "Contact"
+            },
+            "lightning:isPII": false,
+            "copilotAction:isUserInput": false
+        }
+    },
+    "lightning:type": "lightning__objectType"
+}
