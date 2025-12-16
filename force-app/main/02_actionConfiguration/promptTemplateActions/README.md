@@ -41,7 +41,7 @@ actions:
    generate_personalized_schedule:
       description: "Generates a schedule based on guest interests"
       inputs:
-         contactId: string
+         email: string
       outputs:
          promptResponse: string
       target: "prompt://Generate_Personalized_Schedule"
@@ -51,7 +51,7 @@ actions:
 
 ```agentscript
 run @actions.generate_personalized_schedule
-   with contactId=@variables.contact_id
+   with email=@variables.guest_email
    set @variables.generated_schedule = @outputs.promptResponse
 ```
 
@@ -62,13 +62,12 @@ run @actions.generate_personalized_schedule
 ```text
 Agent: Hi! I can generate personalized schedules using Prompt Templates.
 
-User: Create a schedule for me.
+User: Generate a personalized schedule of experiences for me.
 
-Agent: Here is your schedule:
-Day 1: Arrival and Welcome Dinner...
+Agent: To create a personalized schedule for you, please provide your email address.
+
+User: alex.reed@xample.com
+
+Agent: Here is your personalized schedule of experiences ...
+
 ```
-
-## What's Next
-
-- **ExternalAPIIntegration**: Learn how to call external APIs.
-- **BeforeAfterReasoning**: Manage context before and after actions.

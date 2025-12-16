@@ -28,17 +28,17 @@ private class PersonalizedGuestExperiencesTest {
     }
 
     @IsTest
-    static void testGetSessions_Success() {
+    static void testPersonalizedGuestExperiences_Success() {
         // Get test contact
         Contact testContact = [
-            SELECT Id
+            SELECT Id, Email
             FROM Contact
             LIMIT 1
         ];
 
         // Create test request
         PersonalizedGuestExperiences.Request request = new PersonalizedGuestExperiences.Request();
-        request.contactId = testContact.Id;
+        request.email = testContact.email;
 
         // Start test execution context
         Test.startTest();

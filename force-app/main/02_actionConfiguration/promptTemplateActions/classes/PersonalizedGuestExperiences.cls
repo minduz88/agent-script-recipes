@@ -6,7 +6,10 @@ public with sharing class PersonalizedGuestExperiences {
         description='Get today\'s sessions that match the user\'s interests.'
     )
     public static List<Response> getSessions(List<Request> requests) {
-        Id contactId = requests[0].contactId;
+        String email = requests[0].email;
+
+        // Get contact ID
+        Id contactId = [SELECT Id FROM Contact WHERE Email = :email LIMIT 1].Id;
 
         // Get experiences for contact
         List<ASR_Experience__c> experiences = ExperienceController.getExperiences(
@@ -24,8 +27,11 @@ public with sharing class PersonalizedGuestExperiences {
     // The variables in this class need to match the prompt template inputs,
     // that may be different on each prompt template
     public class Request {
-        @InvocableVariable(required=true description='The guest (Contact) ID')
-        public String contactId;
+        @InvocableVariable(
+            required=true
+            description='The guest\'s email address'
+        )
+        public String email;
     }
 
     public class Response {
