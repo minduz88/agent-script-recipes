@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
-    <activeVersionIdentifier
-    >q4QW+0BymkZDG32j6j0JhvrZCo+TF+Qt9lOi+LRDscA=_1</activeVersionIdentifier>
     <developerName>Generate_Personalized_Schedule</developerName>
     <masterLabel>Generate Personalized Schedule</masterLabel>
     <templateVersions>
@@ -37,8 +35,6 @@ List of activities happening today that match the guest&apos;s interests: {!$Ape
             </parameters>
             <referenceName>Apex:PersonalizedGuestExperiences</referenceName>
         </templateDataProviders>
-        <versionIdentifier
-        >q4QW+0BymkZDG32j6j0JhvrZCo+TF+Qt9lOi+LRDscA=_1</versionIdentifier>
     </templateVersions>
     <type>einstein_gpt__flex</type>
     <visibility>Global</visibility>

@@ -39,8 +39,9 @@ Recipes are organized into **4 progressive categories** that mirror your learnin
 - **ActionCallbacks** - Process action results and chain operations (one-level)
 - **AdvancedInputBindings** - Master fixed, bound, and LLM-filled parameters (called slots)
 - **ActionDescriptionOverrides** - Provide context-specific action descriptions
+- **PromptTemplateActions** - Invoke Salesforce Prompt Templates as an action
 
-**Recommended order:** ActionDefinitions → ActionCallbacks → AdvancedInputBindings → ActionDescriptionOverrides
+**Recommended order:** ActionDefinitions → ActionCallbacks → AdvancedInputBindings → ActionDescriptionOverrides, then explore based on your needs
 
 ### 📁 03_reasoningMechanics
 
@@ -92,16 +93,17 @@ Core building blocks every Agent Script developer should know.
 
 Building on the foundation with more sophisticated patterns.
 
-| Recipe                       | Concept           | What You'll Learn                                         |
-| ---------------------------- | ----------------- | --------------------------------------------------------- |
-| **MultiStepWorkflows**       | Action sequences  | Chaining actions, passing data between steps              |
-| **ComplexStateManagement**   | Advanced state    | Object manipulation, list operations, state patterns      |
-| **DynamicActionRouting**     | Action filtering  | `available when`, context-based selection                 |
-| **ConditionalLogicPatterns** | Control flow      | `if`/`else`, comparisons, logical operators               |
-| **ContextHandling**          | Session data      | `readonly` variables, context sources, session management |
-| **ActionCallbacks**          | Post-action hooks | Processing results, one-level chaining                    |
-| **AdvancedInputBindings**    | Action inputs     | Fixed vs bound vs LLM-filled parameters                   |
-| **SafetyAndGuardrails**      | Production safety | Confirmation patterns, validation, safety checks          |
+| Recipe                       | Concept                     | What You'll Learn                                         |
+| ---------------------------- | --------------------------- | --------------------------------------------------------- |
+| **MultiStepWorkflows**       | Action sequences            | Chaining actions, passing data between steps              |
+| **ComplexStateManagement**   | Advanced state              | Object manipulation, list operations, state patterns      |
+| **DynamicActionRouting**     | Action filtering            | `available when`, context-based selection                 |
+| **ConditionalLogicPatterns** | Control flow                | `if`/`else`, comparisons, logical operators               |
+| **ContextHandling**          | Session data                | `readonly` variables, context sources, session management |
+| **ActionCallbacks**          | Post-action hooks           | Processing results, one-level chaining                    |
+| **AdvancedInputBindings**    | Action inputs               | Fixed vs bound vs LLM-filled parameters                   |
+| **PromptTemplateActions**    | Prompt Templates as actions | Invoke Prompt Templates via actions, bind inputs/outputs  |
+| **SafetyAndGuardrails**      | Production safety           | Confirmation patterns, validation, safety checks          |
 
 ### Phase 3: Advanced Concepts (Complete)
 
